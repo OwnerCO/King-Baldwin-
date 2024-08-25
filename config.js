@@ -5,13 +5,13 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.port =process.env.PORT || ""
+global.port =process.env.PORT || "8000"
 global.appUrl=process.env.APP_URL || ""     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
 global.email ="syssolutions.binance@gmail.com"
 global.location="Lima,Peru."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://Guru:mongodb@gifted.qqens.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
@@ -74,8 +74,8 @@ module.exports = {
   VERSION : process.env.VERSION || "1.0.1-developement-x",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
+  author : process.env.PACK_AUTHER|| "Suhail-X-Md",
+  packname: process.env.PACK_NAME || "Suhail-X-Md",
   botname : process.env.BOT_NAME  || "Suhail-X-Md",
   ownername:process.env.OWNER_NAME|| "Suhail-X",
 
